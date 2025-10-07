@@ -9,7 +9,7 @@ The app allows users to:
 
 View, search, and manage their contact list
 
-Add or edit contact details with form validation
+Add contact details with form validation
 
 View individual contact information
 
@@ -20,7 +20,7 @@ It was developed as part of a lab assignment for demonstrating functional React 
 ⚙️ Features
 
 ✅ Functional Contact List with Search
-✅ Add / Edit Contact Forms (with validation)
+✅ Add Contact Forms (with validation)
 ✅ Contact Details View
 ✅ Accessibility Compliance (VoiceOver, semantic roles, labels)
 ✅ Performance Optimization (memoization, scroll rendering, efficient state updates)
@@ -28,8 +28,6 @@ It was developed as part of a lab assignment for demonstrating functional React 
 🧪 Accessibility Testing
 
 Accessibility features were tested using:
-
-TalkBack / VoiceOver screen readers
 
 Proper usage of accessibilityLabel, accessible props
 
