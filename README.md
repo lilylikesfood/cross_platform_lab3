@@ -1,3 +1,92 @@
+📱 Project Title
+
+Contact Manager App (React Native)
+
+📝 Description
+
+This is a mobile contact management application built with React Native.
+The app allows users to:
+
+View, search, and manage their contact list
+
+Add or edit contact details with form validation
+
+View individual contact information
+
+Ensure accessibility and performance optimization
+
+It was developed as part of a lab assignment for demonstrating functional React Native app development, UI handling, and accessibility best practices.
+
+⚙️ Features
+
+✅ Functional Contact List with Search
+✅ Add / Edit Contact Forms (with validation)
+✅ Contact Details View
+✅ Accessibility Compliance (VoiceOver, semantic roles, labels)
+✅ Performance Optimization (memoization, scroll rendering, efficient state updates)
+
+🧪 Accessibility Testing
+
+Accessibility features were tested using:
+
+TalkBack / VoiceOver screen readers
+
+Proper usage of accessibilityLabel, accessible props
+
+Verified color contrast and text scaling compatibility
+
+⚡ Performance Optimization
+
+Removed unnecessary re-renders with React.memo and useCallback
+
+Replaced FlatList with optimized ScrollView + map() (for small datasets)
+
+Lazy-loaded contact images
+
+Used lightweight icons from react-native-vector-icons/MaterialIcons
+
+Minimized inline styles and redundant state updates
+
+
+🛠️ Installation & Setup
+
+1️⃣ Clone the repository
+
+git clone https://github.com/lilylikesfood/cross_platform_lab3.git
+cd App
+
+
+2️⃣ Install dependencies
+
+npm install
+
+
+3️⃣ Run Metro bundler
+
+npx react-native start
+
+
+4️⃣ Run the app on Android emulator
+
+npx react-native run-android
+
+
+🧑‍💻 Technologies Used
+
+React Native 0.81.4
+JavaScript (ES6)
+React Hooks (useState, useEffect, useCallback)
+react-native-vector-icons
+Android Studio Emulator
+
+📚 Author
+
+Liang Yu Tze (N01680521)
+Humber College — Computer Programming and Analysis
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
